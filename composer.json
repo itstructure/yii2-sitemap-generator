@@ -1,0 +1,22 @@
+{
+    "name": "itstructure/yii2-sitemap-generator",
+    "description": "Yii2 component for generate sitemap.xml files.",
+    "keywords": ["yii2", "sitemap", "xml"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Girnik",
+            "email": "girnikandrey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itstructure\\Sitemap\\": ""
+        }
+    }
+}
